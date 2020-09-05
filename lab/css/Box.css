@@ -1,0 +1,45 @@
+/* -------------------------------- Box Model ------------------------------- */
+
+.bubble-1 {
+  padding-top: 7px;
+  margin-right: 50px;
+}
+.bubble-2 {
+  padding-right: 47px;
+  margin-right: 100px;
+}
+.bubble-3 {
+  padding-bottom: 46px;
+}
+
+/* ---------------------------- Width and Height ---------------------------- */
+/* Fixed Size */
+/* article {
+  width: 500px;
+  height: 200px;
+  background-color: #eff0f1;
+} */
+
+/* Dynamic Size (%) */
+/* article {
+  width: 80%;
+  height: 200px;
+  background-color: #eff0f1;
+} */
+
+/* Min-Width */
+/* article {
+  width: 80%;
+  min-width: 400px;
+  height: 200px;
+  background-color: #eff0f1;
+} */
+
+/* Max-Width */
+article {
+  width: 80%;
+  min-width: 400px;
+  max-width: 600px;
+  height: 200px;
+  background-color: #eff0f1;
+}
