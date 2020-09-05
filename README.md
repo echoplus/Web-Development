@@ -4,7 +4,7 @@
   </a>
 </p>
 <h1 align="center">
-  ECHO-PLUS<br />
+  ECHO-PLUS<br />Web Development
 </h1>
 
 <img alt="project wall post pana" src="./data/images/web_development-pana.svg" width="100%" />
