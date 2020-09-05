@@ -29,7 +29,6 @@ header {
         </a>
     </div>
     <h1>ECHO-PLUS</h1>
-    <h2>🧪 LAB 🧪</h2>
 </header>
 
 ## 🚀 Quick start
@@ -39,6 +38,12 @@ open one of the two folders (lab or project) via Visual Studio Code.<br />
 and then run the `index.html` root file with the Live Server extension.
 
 ## 🧐 What's inside?
+
+- 🧪 lab
+- 👨‍🏫 project
+- 📷 data
+
+## Lab
 
 Here you'll find all the exercises and examples
 
@@ -85,3 +90,26 @@ for example: variables, functions, loops, conditions, etc.
 
 Files located in the root folder like index.html, styles.css, etc. <br />
 They used for global styling, portal page, rtl supports, etc.
+
+<hr />
+
+## Project
+
+This folder contains all the files related to the project you will need to do. <br />
+followed by the same structure
+
+    .
+    ├── 📁 data
+    ├──── 📁 fonts
+    ├──── 📁 icons
+    ├──── 📁 images
+    ├── 📁 pages
+    ├──── 📄 index.html
+    ├──── 📄 blog.html
+    ├── 📁 css
+    ├──── 📄 base.css
+    ├──── 📄 layout.css
+    ├── 📄 rtl.css
+    ├── 📁 javascript
+    ├── 📄 index.html
+    └── 💬 README.md
