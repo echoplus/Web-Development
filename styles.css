@@ -1,4 +1,4 @@
-/* @import "/rtl.css"; */
+@import "/rtl.css";
 :root {
   --bg: #1f2430;
   --text: #ffffff;
@@ -29,7 +29,7 @@
 body {
   font-size: var(--fontSize);
   font-family: "Rubik", sans-serif;
-  padding: 5rem 10px;
+  padding: 5rem 50px;
   background: var(--bg);
   color: var(--text);
 }
@@ -61,6 +61,14 @@ hr {
 body > :first-child {
   font-size: 3rem;
   text-align: center;
+}
+
+table td,
+th {
+  padding: 0.5rem 5rem;
+  padding-left: 1rem;
+  text-align: left;
+  width: 200px;
 }
 /* --------------------------------- Presets -------------------------------- */
 .center {

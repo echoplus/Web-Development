@@ -1,3 +1,18 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  direction: rtl;
+}
+
 body {
+  text-align: right;
+}
+
+ul,
+ol {
   direction: rtl;
 }
