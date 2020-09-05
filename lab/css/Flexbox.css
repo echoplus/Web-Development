@@ -1,0 +1,29 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  padding: 10px 20px;
+}
+li {
+  list-style-type: none;
+}
+
+/* Container */
+.flexbox-container {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-items:nth-child(odd) {
+  background-color: #f2ae49;
+}
+.flex-items:nth-child(even) {
+  background-color: #ffd580;
+}
+.flexbox-items {
+  border-radius: 4px;
+  padding: 10px;
+}

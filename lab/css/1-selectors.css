@@ -1,0 +1,76 @@
+/* ------------------------------------ Simple Selectors ----------------------------------- */
+/* element */
+body {
+  background-color: whitesmoke;
+}
+
+/* #id */
+#links-home {
+}
+
+/* .class */
+.links {
+}
+
+/* ,grouping */
+.links {
+}
+
+/* all */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* ------------------------------------ Combinator Selectors ----------------------------------- */
+
+/* Child */
+article > h1 {
+  font-size: 24px;
+}
+
+/* Descendant */
+article a {
+  border-bottom: 0.5px solid rgba(55, 53, 47, 0.4);
+}
+/* adjacent sibling */
+h2 + ul {
+  display: flex;
+}
+
+/* General Sibling */
+ul ~ h2 {
+  margin-bottom: 5px;
+}
+
+/* ------------------------------ Pseudo-class ------------------------------ */
+
+/* unvisited link */
+a:link {
+  color: rgba(55, 53, 47, 0.4);
+}
+
+/* visited link */
+a:visited {
+  color: rgba(55, 53, 47, 0.4);
+}
+
+/* mouse over link */
+a:hover {
+  color: rgba(55, 53, 47, 1);
+}
+
+/* selected link */
+a:active {
+  background-color: rgba(239, 240, 241, 1);
+}
+
+/* First Child Select */
+article:first-child {
+  font-size: 32px;
+}
+
+/* Matches Child Select */
+article:nth-child(1) {
+  font-size: 32px;
+}
