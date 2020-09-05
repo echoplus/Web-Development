@@ -1,28 +1,4 @@
-<style>
-header {
-    text-align:center;
-    margin-bottom: 30px;
-}
-.logo {
-    margin: 0 auto;
-    text-align:center;
-    width: 150px;
-    animation: float 6s ease-in-out infinite;
-}
-
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-</style>
-<header>
+<header style="text-align:center">
     <div class="logo">
         <a href="https://github.com/echoplus/">
             <img alt="echo plus logo" src="./data/icons/echoplus-logo-icon.svg" width="60" />
@@ -37,6 +13,7 @@ header {
 Clone or download the repository to your local computer,<br />
 open one of the two folders (lab or project) via Visual Studio Code.<br />
 and then run the `index.html` root file with the Live Server extension.
+<br /><br />
 
 ## 🧐 What's inside?
 
@@ -60,6 +37,8 @@ Here you'll find all the exercises and examples
     ├── 📄 rtl.css
     ├── 📄 scripts.js
     └── 💬 README.md
+
+Explain
 
 ### data
 
