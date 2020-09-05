@@ -1,35 +1,13 @@
-<style>
-header {
-    text-align:center;
-    margin-bottom: 30px;
-}
-.logo {
-    margin: 0 auto;
-    text-align:center;
-    width: 150px;
-    animation: float 6s ease-in-out infinite;
-}
+<p align="center">
+  <a href="https://github.com/echoplus/">
+    <img alt="Echoplus logo" src="./data/icons/echoplus-logo-icon.svg" width="120" />
+  </a>
+</p>
+<h1 align="center">
+  ECHO-PLUS<br />
+</h1>
 
-@keyframes float {
-  0% {
-    transform: translatey(0px);
-  }
-  50% {
-    transform: translatey(-20px);
-  }
-  100% {
-    transform: translatey(0px);
-  }
-}
-</style>
-<header>
-    <div class="logo">
-        <a href="https://github.com/echoplus/">
-            <img alt="echo plus logo" src="./data/icons/echoplus-logo-icon.svg" width="60" />
-        </a>
-    </div>
-    <h1>ECHO-PLUS</h1>
-</header>
+<img alt="project wall post pana" src="./data/images/web_development-pana.svg" width="100%" />
 
 ## 🚀 Quick start
 
@@ -39,11 +17,11 @@ and then run the `index.html` root file with the Live Server extension.
 
 ## 🧐 What's inside?
 
-- 🧪 lab
-- 👨‍🏫 project
+- <a href="https://github.com/echoplus/Web-Development/tree/lab">🧪 lab</a>
+- <a href="https://github.com/echoplus/Web-Development/tree/project">👨‍🏫 project</a>
 - 📷 data
 
-## Lab
+## 🧪 Lab
 
 Here you'll find all the exercises and examples
 
@@ -93,7 +71,7 @@ They used for global styling, portal page, rtl supports, etc.
 
 <hr />
 
-## Project
+## 👨‍🏫 Project
 
 This folder contains all the files related to the project you will need to do. <br />
 followed by the same structure
