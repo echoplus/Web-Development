@@ -1,12 +1,12 @@
 <p align="center">
   <a href="https://github.com/echoplus/">
-    <img alt="Gatsby" src="./data/icons/echoplus-logo-icon.svg" width="120" />
+    <img alt="Echoplus logo" src="./data/icons/echoplus-logo-icon.svg" width="120" />
   </a>
 </p>
 <h1 align="center">
   ECHO-PLUS<br />Web development
 </h1>
-<img alt="Gatsby" src="./data/images/web_techlonogies-pana.svg" width="100%" />
+<img alt="web development technologies" src="./data/images/web_techlonogies-pana.svg" width="100%" />
 
 ## 🚀 Quick start
 
