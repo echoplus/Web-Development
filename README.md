@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://github.com/echoplus/">
-    <img alt="Gatsby" src="./data/icons/echoplus-logo-icon.svg" width="60" />
+    <img alt="Gatsby" src="./data/icons/echoplus-logo-icon.svg" width="120" />
   </a>
 </p>
 <h1 align="center">
