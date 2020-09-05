@@ -1,12 +1,12 @@
-<header style="text-align:center">
-    <div class="logo">
-        <a href="https://github.com/echoplus/">
-            <img alt="echo plus logo" src="./data/icons/echoplus-logo-icon.svg" width="60" />
-        </a>
-    </div>
-    <h1>ECHO-PLUS</h1>
-    <h2>🧪 LAB 🧪</h2>
-</header>
+<p align="center">
+  <a href="https://github.com/echoplus/">
+    <img alt="Gatsby" src="./data/icons/echoplus-logo-icon.svg" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  ECHO-PLUS<br />Web development
+</h1>
+<img alt="Gatsby" src="./data/images/web_techlonogies-pana.svg" width="100%" />
 
 ## 🚀 Quick start
 
