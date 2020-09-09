@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Deconstructed Pancake</title>
+  </head>
+
+  <body class="center">
+    <h1>Deconstructed Pancake</h1>
+    <p>נסה/י להקטין ולהגדיל את הקופסא</p>
+    <p>כאשר הפריט יגיע לרוחב של 200px הוא "יתפרק" לשורה הבאה</p>
+
+    <div class="box box-1">
+      <div class="items">🍕</div>
+      <div class="items">🍔</div>
+      <div class="items">🍟</div>
+    </div>
+    <h2>flex: 1 1 200px;</h2>
+    <hr />
+    <!-- flex: 1 1 200px; -->
+    <p class="center">הפריטים לא תופסים את כל המקום בקופסא אבל עדיין יתפרקו</p>
+    <h3>flex: 1 1 200px;</h3>
+    <div class="box box-2">
+      <div class="items">🍕</div>
+      <div class="items">🍔</div>
+      <div class="items">🍟</div>
+    </div>
+  </body>
+</html>

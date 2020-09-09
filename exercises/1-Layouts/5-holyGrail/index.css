@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template: auto 1fr auto / auto 1fr auto;
+
+  background: #ffffff;
+}
+
+.card {
+  margin: 5px;
+  padding: 2rem;
+}
+
+header {
+  grid-column: 1 / 4;
+}
+
+main {
+  grid-column: 2 / 3;
+}
+
+nav {
+  grid-column: 1 / 2;
+}
+
+aside {
+  grid-column: 3 / 4;
+}
+
+footer {
+  grid-column: 1 / 4;
+}
+
+nav {
+  all: unset;
+}

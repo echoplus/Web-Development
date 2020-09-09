@@ -1,0 +1,14 @@
+.container {
+  display: grid;
+  min-height: 450px;
+
+  resize: both;
+  margin-bottom: 5rem;
+}
+
+.grid-fill {
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+.grid-fit {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}

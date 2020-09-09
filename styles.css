@@ -1,6 +1,7 @@
 @import "/rtl.css";
 :root {
   --bg: #1f2430;
+  --bg2: #2d3444;
   --text: #ffffff;
   --fontSize: 16px;
   --primary: #4fbe99;
@@ -18,6 +19,7 @@
 @font-face {
   src: url("/data/fonts/Rubik-VariableFont_wght.ttf");
   font-family: Rubik;
+  font-display: swap;
 }
 
 * {
@@ -41,7 +43,11 @@ h5,
 h6 {
   padding: 10px 0;
 }
-p {
+h3 {
+  font-weight: 300;
+}
+p,
+pre {
   font-size: 1.5rem;
   filter: brightness(80%);
   padding: 20px 0;
@@ -69,6 +75,17 @@ th {
   padding-left: 1rem;
   text-align: left;
   width: 200px;
+}
+img {
+  max-width: 100%;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  width: fit-content;
+  margin: 0 auto;
 }
 /* --------------------------------- Presets -------------------------------- */
 .center {
@@ -126,10 +143,80 @@ button:active {
   transform: translateY(2px);
 }
 
+.box,
+.container {
+  position: relative;
+  resize: both;
+  overflow: auto;
+}
+.container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: var(--bg);
+  filter: brightness(90%);
+  z-index: -1;
+}
+.card {
+  margin: 5px;
+  background: #d4f2c4;
+  font-size: 1rem;
+  padding: 15px 0;
+  text-align: center;
+  color: #000000;
+  border-radius: 2px;
+}
+.card:nth-child(1) {
+  background: #f5e0e9;
+}
+.card:nth-child(2) {
+  background: #a9e2ea;
+}
+.card:nth-child(3) {
+  background: #f7c8ab;
+}
+.card:nth-child(4) {
+  background: #fee8b4;
+}
+.card:nth-child(5) {
+  background: #d4f2c4;
+}
 /* --------------------------------- Custom --------------------------------- */
 .logo {
   width: 150px;
   animation: float 6s ease-in-out infinite;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 70px;
+}
+nav::after {
+  content: "";
+  display: block;
+  height: 0.5px;
+  width: 100%;
+  background: var(--text);
+  filter: brightness(30%);
+  opacity: 0.2;
+}
+nav ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 10px 0;
+}
+nav ul li {
+  padding: 7px 15px;
+}
+nav ul li:hover {
+  background: var(--bg2);
 }
 
 @keyframes float {

@@ -12,8 +12,9 @@
   <body>
     <h1>Forms</h1>
     <form method="GET">
-      <label for="email">Email</label>
+      <label for="email">אימייל</label>
       <input type="text" id="email" autocomplete="on" />
+      <label for="email">שם</label>
       <input type="text" name="firstName" />
       <br />
       <br />
@@ -25,6 +26,18 @@
       <label for="other">Other</label>
       <input type="radio" id="other" name="gender" />
 
+      <label for="browser">Choose your browser from the list:</label>
+      <input list="browsers" name="browser" id="browser" />
+
+      <datalist id="browsers">
+        <option value="Edge"></option>
+        <option value="Firefox"></option>
+        <option value="Chrome"></option>
+        <option value="Opera"></option>
+        <option value="Safari"></option>
+      </datalist>
+
+      <input type="color" name="color" id="" />
       <input type="submit" />
     </form>
   </body>

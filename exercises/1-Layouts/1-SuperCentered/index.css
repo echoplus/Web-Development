@@ -1,0 +1,12 @@
+.box {
+  display: grid;
+  place-items: center;
+
+  font-size: 6rem;
+  margin: 0 auto;
+  background: lightblue;
+  width: 500px;
+  height: 500px;
+  resize: both;
+  overflow: auto;
+}
