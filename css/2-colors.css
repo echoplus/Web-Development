@@ -1,0 +1,25 @@
+/* --------------------------------- Colors --------------------------------- */
+/* Name */
+h1 {
+  color: lightblue;
+}
+/* RGB */
+h1 {
+  color: rgb(red, green, blue);
+  color: rgb(255, 100, 86);
+}
+/* HSL */
+h1 {
+  color: hsl(hue, saturation, lightness);
+  color: hsl(28, 255, 192);
+}
+/* Hex */
+h1 {
+  color: #ff6456;
+}
+
+/* ---------------------------- Background-color ---------------------------- */
+
+body {
+  background-color: whitesmoke;
+}

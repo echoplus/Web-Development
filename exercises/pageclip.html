@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="/styles.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
+    <link
+      rel="stylesheet"
+      href="https://s.pageclip.co/v1/pageclip.css"
+      media="screen"
+    />
+
+    <title>Page Clip Form</title>
+  </head>
+  <body>
+    <h1>Contact Form</h1>
+    <form
+      action="https://send.pageclip.co/oaGWsmHOBeGiCzpwym5fKWw7zflYbdFk/contact-form"
+      class="pageclip-form"
+      method="post"
+    >
+      <!-- Replace these inputs with your own. Make sure they have a "name" attribute! -->
+
+      <!-- It looks like you are creating a contact form. These email and subject fields are special -->
+      <!-- See https://pageclip.co/docs#special-fields for more info -->
+      <label for="email">Email</label>
+      <input id="email" type="email" name="email" value="roscoe@example.com" />
+      <label for="message">Message</label>
+      <input
+        id="message"
+        type="text"
+        name="message"
+        value="A contact subject"
+      />
+
+      <!-- This button will have a loading spinner. Keep the inner span for best results. -->
+      <button type="submit" class="pageclip-form__submit">
+        <span>Send</span>
+      </button>
+    </form>
+  </body>
+</html>

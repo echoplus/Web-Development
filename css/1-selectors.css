@@ -5,7 +5,7 @@ body {
 }
 
 /* #id */
-#links-home {
+#headline {
 }
 
 /* .class */
@@ -13,7 +13,10 @@ body {
 }
 
 /* ,grouping */
-.links {
+h1,
+h2,
+h3 {
+  /* ... */
 }
 
 /* all */
@@ -65,6 +68,10 @@ a:active {
   background-color: rgba(239, 240, 241, 1);
 }
 
+input:focus {
+  /*  */
+}
+
 /* First Child Select */
 article:first-child {
   font-size: 32px;
@@ -73,4 +80,12 @@ article:first-child {
 /* Matches Child Select */
 article:nth-child(1) {
   font-size: 32px;
+}
+
+/* ------------------------------ Attributes ------------------------------ */
+
+a[target="_blank"] {
+  color: purple;
+}
+input[type="text"] {
 }

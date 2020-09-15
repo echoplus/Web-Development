@@ -1,6 +1,4 @@
 {
-  "username": "orelhassid@outlook.com",
-  "password": "123456",
-  "address": { "city": "petah-tikva", "state": "Israel" },
-  "role": ["teacher", "admin", "editor"]
+  "name": "אוראל",
+  "message": "שלום"
 }
