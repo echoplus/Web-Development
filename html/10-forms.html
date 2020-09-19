@@ -10,47 +10,164 @@
     <title>OrelHassid | Forms</title>
   </head>
   <body>
-    <h1>Forms</h1>
+    <!-- Navigation Bar -->
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li class="menu">
+          <a href="#">Basic Tags</a>
+          <ul>
+            <li><a href="/html/1-heading.html">Heading</a></li>
+            <li><a href="/html/2-paragraph.html">Paragraph</a></li>
+            <li><a href="/html/3-formatting.html">Formatting</a></li>
+            <li><a href="/html/4-comments.html">Comments</a></li>
+          </ul>
+        </li>
+        <li class="menu">
+          <a href="#">Links and Images</a>
+          <ul>
+            <li><a href="/html/5-attributes.html">Attributes</a></li>
+            <li><a href="/html/5-links.html">Links</a></li>
+            <li><a href="/html/6-filePaths.html">File Paths</a></li>
+            <li><a href="/html/6-images.html">Images</a></li>
+          </ul>
+        </li>
+        <li class="menu">
+          <a href="#">Data Structure</a>
+          <ul>
+            <li><a href="/html/8-lists.html">Lists</a></li>
+            <li><a href="/html/9-tables.html">Tables</a></li>
+          </ul>
+        </li>
+        <li class="menu">
+          <a href="#">Forms</a>
+          <ul>
+            <li><a href="/html/10-forms.html">Forms</a></li>
+            <li><a href="/html/11-buttons.html">Buttons</a></li>
+          </ul>
+        </li>
+      </ul>
+      <input type="search" />
+    </nav>
+    <!-- End Navigation Bar -->
+
+    <h1>Form</h1>
     <form method="post|get">
-      <label for="email">אימייל</label>
-      <input type="text" id="email" autocomplete="on" />
-      <label for="email">שם</label>
-      <input type="text" name="firstName" />
-      <br />
-      <br />
-      <!--<input type="checkbox" /> -->
-      <label for="male">Male</label>
-      <input type="radio" id="male" name="gender" />
-      <label for="female">Female</label>
-      <input type="radio" id="female" name="gender" />
-      <label for="other">Other</label>
-      <input type="radio" id="other" name="gender" />
+      <header>
+        <h2>Register Form</h2>
+      </header>
+      <!-- Personal Information -->
+      <fieldset>
+        <legend>🧑Personal Information</legend>
 
-      <label for="browser">Choose your browser from the list:</label>
-      <input list="browsers" name="browser" id="browser" />
+        <div class="control">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" />
+          <small>your name will be display in the title</small>
+        </div>
 
-      <datalist id="browsers">
-        <option value="Edge"></option>
-        <option value="Firefox"></option>
-        <option value="Chrome"></option>
-        <option value="Opera"></option>
-        <option value="Safari"></option>
-      </datalist>
+        <div class="control">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="example@domain.com"
+            autocomplete="on"
+            required
+          />
+          <small>your email address will be used as login details</small>
+        </div>
 
-      <input type="color" name="color" id="" />
-      <input type="submit" />
+        <div class="control">
+          <label for="password">Password</label>
+          <input
+            type="password"
+            id="password"
+            name="password"
+            placeholder=""
+            required
+          />
+          <small>it recommend to choose strong and long password</small>
+        </div>
+
+        <!-- Gender -->
+        <div class="control">
+          <h3>Gender</h3>
+
+          <div class="option">
+            <input type="radio" id="male" name="gender" checked />
+            <label for="male">Male</label>
+          </div>
+          <div class="option">
+            <input type="radio" id="female" name="gender" />
+            <label for="female">Female</label>
+          </div>
+          <div class="option">
+            <input type="radio" id="other" name="gender" />
+            <label for="other">Other</label>
+          </div>
+        </div>
+
+        <div class="control">
+          <label for="birthday">Birthday</label>
+          <input type="date" id="birthday" name="birthday" />
+        </div>
+
+        <div class="control">
+          <label for="website">Website</label>
+          <input type="url" id="website" />
+        </div>
+        <div class="control">
+          <label for="phone">Phone</label>
+          <input type="tel" id="phone" />
+        </div>
+
+        <!-- Address -->
+      </fieldset>
+
+      <fieldset>
+        <legend>📢Other</legend>
+
+        <label for="browser">Select your platform</label>
+        <input list="browsers" name="browser" id="browser" />
+
+        <datalist id="browsers">
+          <option value="Windows"></option>
+          <option value="Linux"></option>
+          <option value="MaxOS"></option>
+        </datalist>
+        <div class="control">
+          <h3>What is your job?</h3>
+          <input type="checkbox" name="job" id="teacher" />
+          <label for="teacher">Teacher</label><br />
+          <input type="checkbox" name="job" id="developer" />
+          <label for="developer">Developer</label><br />
+          <input type="checkbox" name="job" id="designer" />
+          <label for="designer">Designer</label><br />
+          <input type="checkbox" name="job" id="manager" />
+          <label for="manager">Manager</label><br />
+        </div>
+        <div class="control">
+          <!-- cols and rows are no longer relevant because styling handle by CSS -->
+          <label for="message">Message</label>
+          <textarea name="message" id="message" cols="2" rows="5"></textarea>
+          <small>What is on your mind?</small>
+        </div>
+        <div class="control">
+          <label for="rank">
+            How many times do you log into social media each day? (between 0 and
+            10): </label
+          ><br />
+          <input type="range" id="rank" name="rank" min="0" max="10" step="2" />
+        </div>
+        <div class="control">
+          <label for="color">Color</label>
+          <input type="color" name="color" id="color" value="#eeeeee" />
+        </div>
+      </fieldset>
+      <button type="submit">Register</button>
+      <button type="reset">Reset</button>
     </form>
-
-    <form>
-      <input type="text" />
-      <input type="password" />
-      <input type="email" />
-      <input type="checkbox" />
-      <input type="radio" />
-      <input type="file" />
-    </form>
-    <input type="text" id="username" name="username" required />
-    <input type="password" min="6" max="14" />
-    <input type="email" id="email" name="email" autocomplete="off" />
   </body>
 </html>

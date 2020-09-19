@@ -1,0 +1,67 @@
+:root {
+  --bg: #1f2430;
+  --bg2: #2d3444;
+  --text: #ffffff;
+  --fontSize: 16px;
+  --primary: hsl(160, 46%, 53%);
+  --primary-dark: hsl(160, 46%, 33%);
+  --red: hsl(0, 81%, 69%);
+  --red-dark: hsl(0, 81%, 59%);
+  --cardSize: 250px;
+}
+
+.dark {
+  background: var(--bg);
+  color: var(--text);
+}
+.light {
+  background: #fdf6eb;
+  color: var(--bg);
+}
+
+@font-face {
+  src: url("/data/fonts/Rubik-VariableFont_wght.ttf");
+  font-family: Rubik;
+  font-display: swap;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: var(--fontSize);
+  font-family: "Rubik", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  padding: 10px 0;
+}
+h3 {
+  font-weight: 300;
+}
+p,
+pre {
+  font-size: 1.5rem;
+  filter: brightness(80%);
+  padding: 20px 0;
+}
+
+a {
+  color: currentColor;
+  text-decoration: none;
+}
+hr {
+  width: 60%;
+  margin: 1rem auto;
+  /* border-width: 0.1px; */
+  filter: brightness(0.5);
+}
