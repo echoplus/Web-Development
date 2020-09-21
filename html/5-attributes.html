@@ -10,7 +10,7 @@
     />
     <title>EchoPlus | Attributes</title>
   </head>
-  <body>
+  <body class="light">
     <!-- Navigation Bar -->
     <nav>
       <ul>
@@ -47,10 +47,21 @@
             <li><a href="/html/11-buttons.html">Buttons</a></li>
           </ul>
         </li>
+        <li class="menu">
+          <a href="#">Layout</a>
+          <ul>
+            <li><a href="/html/13-layout.html">Semantic</a></li>
+          </ul>
+        </li>
       </ul>
-      <input type="search" />
+      <label class="theme-switch">
+        <input type="checkbox" id="themeBtn" />
+        <span class="slider round"></span>
+      </label>
+      <!-- <input type="search" /> -->
     </nav>
     <!-- End Navigation Bar -->
+
     <h1>Attributes</h1>
     <!-- Syntax -->
     <!-- element[attribute="value"] -->
@@ -70,5 +81,7 @@
 
     <!-- אלא אם כן יש אלמנט גבוה יותר שמוגדר עליו rtl -->
     <p dir="ltr">הפסקה הזאת לא תומכת בעברית וב English</p>
+
+    <script src="/theme.js"></script>
   </body>
 </html>

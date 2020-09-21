@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="he">
   <head>
     <link rel="stylesheet" href="/styles.css" />
     <link
@@ -7,10 +7,13 @@
       href="/data/icons/echoplus-logo-icon@32.png"
       type="image/x-icon"
     />
-    <title>EchoPlus | Formatting</title>
+    <script
+      type="module"
+      src="https://cdn.jsdelivr.net/gh/zerodevx/zero-md@1/src/zero-md.min.js"
+    ></script>
+    <title>EchoPlus | Semantic</title>
   </head>
-
-  <body class="light">
+  <body>
     <!-- Navigation Bar -->
     <nav>
       <ul>
@@ -31,6 +34,7 @@
             <li><a href="/html/5-links.html">Links</a></li>
             <li><a href="/html/6-filePaths.html">File Paths</a></li>
             <li><a href="/html/6-images.html">Images</a></li>
+            <li><a href="/html/7-iframe.html">iFrame</a></li>
           </ul>
         </li>
         <li class="menu">
@@ -61,16 +65,50 @@
       <!-- <input type="search" /> -->
     </nav>
     <!-- End Navigation Bar -->
+    <h1>Layout and Semantic</h1>
+    <zero-md src="/content/semantic.md"></zero-md>
+    <hr />
 
-    <h1>Text Formatting</h1>
-    <p><b>This text is bold</b></p>
-    <p><strong>This text is important!</strong></p>
-    <p><i>This text is italic</i></p>
-    <p><em>This text is emphasized</em></p>
-    <p><small>This is some smaller text.</small></p>
-    <p>Do not forget to buy <mark>milk</mark> today.</p>
-    <p>My favorite color is <del>blue</del> <ins>red</ins>.</p>
+    <!-- Navigation -->
+    <nav>
+      <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/">Portfolio</a></li>
+        <li><a href="/">Contact</a></li>
+      </ul>
+    </nav>
+    <!-- Main -->
+    <main>
+      <!-- Header -->
+      <header>
+        <h1>My Blog</h1>
+        <p>Learn how to develop and design beautiful user interfaces.</p>
+      </header>
 
+      <article>
+        <h2>HTML</h2>
+        <p>Markup language for creating and structure webpages</p>
+      </article>
+
+      <article>
+        <h2>CSS</h2>
+        <p>Describes how HTML elements should be displayed</p>
+      </article>
+    </main>
+    <footer>
+      Copyright © 2020 Orel Hassid.
+      <address>
+        Written by
+        <a href="mailto:orelhassid@outlook.com">Orel Hassid</a>.<br />
+        Petah Tikva, Hadar ganim<br />
+        Israel
+      </address>
+    </footer>
+    <!-- Div -->
+    <div class="comment">
+      <div class="title">orelhassid</div>
+      <p class="message">Hello There! 👋</p>
+    </div>
     <script src="/theme.js"></script>
   </body>
 </html>

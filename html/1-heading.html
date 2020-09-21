@@ -9,7 +9,7 @@
     </style>
     <title>EchoPlus | Heading</title>
   </head>
-  <body>
+  <body class="light">
     <!-- Navigation Bar -->
     <nav>
       <ul>
@@ -46,8 +46,18 @@
             <li><a href="/html/11-buttons.html">Buttons</a></li>
           </ul>
         </li>
+        <li class="menu">
+          <a href="#">Layout</a>
+          <ul>
+            <li><a href="/html/13-layout.html">Semantic</a></li>
+          </ul>
+        </li>
       </ul>
-      <input type="search" />
+      <label class="theme-switch">
+        <input type="checkbox" id="themeBtn" />
+        <span class="slider round"></span>
+      </label>
+      <!-- <input type="search" /> -->
     </nav>
     <!-- End Navigation Bar -->
     <h1>Heading / כותרות</h1>
@@ -59,5 +69,6 @@
     <h6>Heading 6</h6>
     <!-- h$*6{Heading $} -->
     <!-- h$.$*3 -->
+    <script src="/theme.js"></script>
   </body>
 </html>

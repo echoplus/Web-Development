@@ -30,6 +30,7 @@
             <li><a href="/html/5-links.html">Links</a></li>
             <li><a href="/html/6-filePaths.html">File Paths</a></li>
             <li><a href="/html/6-images.html">Images</a></li>
+            <li><a href="/html/7-iframe.html">iFrame</a></li>
           </ul>
         </li>
         <li class="menu">
@@ -46,8 +47,18 @@
             <li><a href="/html/11-buttons.html">Buttons</a></li>
           </ul>
         </li>
+        <li class="menu">
+          <a href="#">Layout</a>
+          <ul>
+            <li><a href="/html/13-layout.html">Semantic</a></li>
+          </ul>
+        </li>
       </ul>
-      <input type="search" />
+      <label class="theme-switch">
+        <input type="checkbox" id="themeBtn" />
+        <span class="slider round"></span>
+      </label>
+      <!-- <input type="search" /> -->
     </nav>
     <!-- End Navigation Bar -->
 
@@ -129,10 +140,10 @@
       <fieldset>
         <legend>📢Other</legend>
 
-        <label for="browser">Select your platform</label>
-        <input list="browsers" name="browser" id="browser" />
+        <label for="platform">Select your platform</label>
+        <input list="platforms" name="platform" id="platform" />
 
-        <datalist id="browsers">
+        <datalist id="platforms">
           <option value="Windows"></option>
           <option value="Linux"></option>
           <option value="MaxOS"></option>
@@ -169,5 +180,6 @@
       <button type="submit">Register</button>
       <button type="reset">Reset</button>
     </form>
+    <script src="/theme.js"></script>
   </body>
 </html>
